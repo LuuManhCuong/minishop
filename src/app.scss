@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  border: 1px solid #ccc;
+  width: 40vw;
+  height: auto;
+  margin: auto;
+
+  .form-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+
+    .search {
+      margin: 10px 0;
+      input {
+        width: 70%;
+        height: 40px;
+        border: 1px solid #ccc;
+        outline: none;
+      }
+    }
+    .filter {
+      margin: 10px 0;
+    }
+  }
+}

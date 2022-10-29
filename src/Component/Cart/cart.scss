@@ -1,0 +1,36 @@
+.cart {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  .quantity {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(229, 42, 73);
+    color: white;
+    position: absolute;
+    top: -25%;
+    left: -15%;
+    margin: 0;
+  }
+
+  &:hover .cart-block {
+    display: block;
+  }
+
+  .cart-block {
+    display: none;
+    transition: all ease 0.5s;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-height: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: rgb(179, 181, 182);
+
+    .product {
+      padding: 10px;
+      zoom: 0.6;
+    }
+  }
+}
